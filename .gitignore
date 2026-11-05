@@ -1,0 +1,62 @@
+# SentinelX .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+.venv*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# SQLite / databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Node / frontend
+node_modules/
+.dist/
+dist/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Vite
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+
+# Misc
+__debug_bin/
+!data/sample/**

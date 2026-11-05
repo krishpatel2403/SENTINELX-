@@ -1,0 +1,13 @@
+timestamp,source_ip,destination_ip,username,event_type,severity,description,hostname,source
+2026-01-15T08:12:01Z,10.0.0.5,10.0.0.10,alice,login_success,low,Accepted publickey for alice,web-01,csv
+2026-01-15T08:15:10Z,192.168.1.100,10.0.0.10,root,login_failure,medium,Failed password for root,web-01,csv
+2026-01-15T08:15:22Z,192.168.1.100,10.0.0.10,root,login_failure,medium,Failed password for root,web-01,csv
+2026-01-15T08:15:35Z,192.168.1.100,10.0.0.10,root,login_failure,medium,Failed password for root,web-01,csv
+2026-01-15T08:15:48Z,192.168.1.100,10.0.0.10,root,login_failure,medium,Failed password for root,web-01,csv
+2026-01-15T08:16:01Z,192.168.1.100,10.0.0.10,root,login_failure,medium,Failed password for root,web-01,csv
+2026-01-15T08:17:12Z,10.0.0.7,10.0.0.10,charlie,privilege_escalation,high,sudo su - command,web-01,csv
+2026-01-15T08:18:33Z,10.0.0.8,10.0.0.10,dave,access_denied,medium,pam_unix authentication failure,web-01,csv
+2026-01-15T08:19:44Z,10.0.0.8,10.0.0.10,dave,access_denied,medium,pam_unix authentication failure,web-01,csv
+2026-01-15T08:20:55Z,10.0.0.8,10.0.0.10,dave,access_denied,medium,pam_unix authentication failure,web-01,csv
+2026-01-15T08:21:08Z,10.0.0.8,10.0.0.10,dave,access_denied,medium,pam_unix authentication failure,web-01,csv
+2026-01-15T08:21:21Z,10.0.0.8,10.0.0.10,dave,access_denied,medium,pam_unix authentication failure,web-01,csv

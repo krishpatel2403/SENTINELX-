@@ -1,0 +1,12 @@
+export { Login } from "./Login";
+export { Dashboard } from "./Dashboard";
+export { SecurityEvents } from "./SecurityEvents";
+export { LogIngestion } from "./LogIngestion";
+export { DetectionRules } from "./DetectionRules";
+export { AlertManagement } from "./AlertManagement";
+export { IncidentManagement } from "./IncidentManagement";
+export { ThreatIntelligence } from "./ThreatIntelligence";
+export { MitreAttck } from "./MitreAttck";
+export { Reports } from "./Reports";
+export { UserManagement } from "./UserManagement";
+export { Settings } from "./Settings";
